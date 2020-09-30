@@ -1,0 +1,224 @@
+
+body
+{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1
+{
+  font-family:"Montserrat";
+  line-height: 1.5;
+}
+
+h2
+{
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+}
+
+p
+{
+  color: #8f8f8f;
+  width: 80%;
+  position: relative;
+  left: 30px;
+}
+
+
+/* TITLE SECTION */
+
+#title
+{
+background-color: #ff4c68;
+color: white;
+
+}
+
+.container_fluid
+{
+    padding: 3% 15% 15%;
+
+}
+
+
+
+/* Navbar Section */
+
+
+.navbar
+{
+padding: 0 0 4.5rem;
+}
+
+.navbar-brand
+{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    padding-bottom: 4.5rem;
+    position: relative;
+    right: 18px;
+}
+
+.nav-item
+{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+}
+
+.download-button
+{
+  margin: 18px 14px 7px 0;
+}
+
+
+/*Title Image*/
+
+.title-image
+{
+  transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+  background-color: none;
+  width: 60%;
+  padding-top: 30px;
+  position:absolute;
+
+}
+
+
+
+
+/* FEATURES SECTION*/
+
+#features
+{
+  padding:9% 15%;
+  background-color: white;
+  position: relative;;
+
+}
+
+.feature-box
+{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.icon{
+  color: #ef8172;
+  position: relative;
+  bottom: 16px;
+}
+
+
+
+/* Testimonial Section */
+
+#testimonials
+{
+
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+
+.testi_image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item
+{
+  padding:7% 15%;
+}
+
+#press{
+  background-color:#ff4c68;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.logos
+{
+  width: 13%;
+  margin: 25px;
+}
+
+
+#pricing
+{
+  text-align: center;
+  padding:5% 5%;
+}
+
+.pricing_card
+{
+padding: 6% 9%;
+}
+
+.pricing_buttons
+{
+  width: 80%;
+}
+
+@media (max-width: 1028px)
+{
+#title
+{
+  text-align:center;
+}
+
+.title-image
+{
+position: static;
+transform: rotate(0);
+}
+}
+
+
+#cta
+{
+  background-color: #ff4c68;
+  text-align: center;
+  padding:9% 15%;
+
+}
+
+#h3_id
+{
+  color: white;
+  font-size: 3.5rem;
+  width: 100%;
+}
+
+
+#footer
+{
+  padding:3% 15%;
+  text-align: center;
+}
+
+.footer_icons
+{
+margin:10px 10px;
+}
+.para
+{
+  position: relative;
+  left: 10%;
+
+}
